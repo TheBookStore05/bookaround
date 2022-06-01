@@ -87,7 +87,7 @@ div {
 }
 
 .search input {
-  margin-left: 30rem;
+  margin-left: 28.5rem;
   width: 100%;
   /* margin-right: 28rem; */
   /* padding-top: 0.5rem;
@@ -97,6 +97,7 @@ div {
 .search input {
   align-items: center;
   width: 100%;
+  font-size: 14px;
 }
 
 #search-button {
