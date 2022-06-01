@@ -95,7 +95,8 @@ div {
 }
 
 .search input {
-  align-items: center;
+  /* align-items: center; */
+  text-align: center;
   width: 100%;
   font-size: 14px;
 }
