@@ -13,11 +13,9 @@ body {
   z-index: -500;
 }
 
-#logo {
-  display: inline-block;
-  justify-content: center;
-  position: relative;
-  align-self: center;
+.logo {
+  display: absolute;
+  margin-right: 10rem;
 }
 
 nav ul {
