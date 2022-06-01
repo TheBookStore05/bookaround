@@ -6,10 +6,20 @@
 body {
   padding: 0%;
   margin: 0%;
+  border: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+  z-index: -500;
+}
+
+.main .logo {
+  display: absolute;
+  margin-right: 10rem;
 }
 
 nav {
-  display: inline-flex;
+  display: flex;
 }
 
 nav ul {
@@ -17,7 +27,7 @@ nav ul {
   margin: 0;
   padding: 0;
   width: 15%;
-  background-color: #5e3a4d;
+  background-image: linear-gradient(#5e3a4d, black);
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -47,11 +57,33 @@ nav ul li a:hover:not(.active) {
   color: white;
 }
 
-nav ul li img {
-  width: 25%;
-  align-content: center;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul li a img {
+  justify-content: center;
+}
+
+p {
+  display: block;
+  font-size: 3.5rem;
+  padding-top: 3.75rem;
+  padding-right: 3.75rem;
+  padding-bottom: 3.75rem;
+  padding-left: 3.25rem;
+}
+
+input {
+  z-index: 500;
+  display: inline-flex;
+  width: 7.5%;
+  position: relative;
+  bottom: 0;
+  float: right;
   text-align: center;
-  margin-right: 20%;
 }
 
 div {
@@ -60,54 +92,39 @@ div {
   height: 100%;
 }
 
-.main-title {
-  display: flex;
+.search {
+  display: inline-flex;
+  text-align: left;
+  justify-content: center;
+}
+
+.search input {
+  margin-left: 24.5rem;
+  width: 100%;
+}
+
+.search input {
   text-align: center;
+  width: 100%;
+  font-size: 14px;
+}
+
+#search-button {
+  width: 5rem;
+  margin-left: 0;
+}
+
+.main-title {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
   border: 5px solid black;
-  color: #5e3a4d;
+  color: white;
+  background-color: #5e3a4d;
+  margin-top: 5rem;
+  margin-left: 23.5rem;
   position: relative;
   width: 25%;
-  align-items: center;
+  /* align-items: center; */
   flex-flow: row wrap;
-}
-
-.featured-book {
-  display: inline-flex;
-  flex-flow: row wrap;
-  position: relative;
-  /* display: inline-flex; */
-  flex: auto;
-  margin-right: 20%;
-  margin-top: 10%;
-}
-
-.bestseller-book {
-  display: inline-flex;
-  flex-flow: row wrap;
-  position: relative;
-  /* display: inline-flex; */
-  flex: auto;
-  margin-right: 20%;
-  margin-top: 10%;
-}
-
-.special-section {
-  display: inline-flex;
-  /* position: relative;
-    /* display: inline-flex; */
-  flex: auto;
-  margin-right: 20%;
-  margin-top: 10%;
-}
-
-.bestseller-book img {
-  max-width: 80%;
-  height: auto;
-  position: relative;
-}
-
-.featured-book img {
-  max-width: 80%;
-  height: auto;
-  position: relative;
 }

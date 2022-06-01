@@ -7,12 +7,15 @@
     <link rel="stylesheet" type="text/css" href="assets/css/page.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body
+    id="background"
+    style="background-image: url(./assets/images/background/pagebackground.jpg)"
+  >
     <!-- Added a vertical nav-bar that will always stay on the page -->
     <nav class="vertical-bar">
       <ul>
         <li>
-          <a href="#index.html"
+          <a href="index.html"
             ><img src="assets\images\logo\pagelogo.png" alt="Book Around Logo"
           /></a>
         </li>
@@ -32,26 +35,37 @@
         </li>
         <p>Come and take a Book Around!</p>
       </ul>
+      <!-- <input type="button" placeholder="login" />
+      <input type="button" placeholder="signup" /> -->
     </nav>
 
+    <input type="button/text" placeholder="Signup" />
+    <input type="button/text" placeholder="Login" />
+
     <div>
-      <h1 class="main-title">Page Name</h1>
+      <h1 class="main-title">Search Results</h1>
     </div>
 
     <!-- added a search bar & button to search for books -->
-    <div class="search-bar">
+    <!-- added a search bar & button to search for books -->
+    <div class="search">
       <input
-        class="search-bar"
+        id="search-bar"
         type="text"
         placeholder="Search for your book..."
+        size="35"
       />
-      <input class="search-button" type="button" placeholder="search" />
+
+      <!-- submit button -->
+      <input
+        id="search-button"
+        type="image"
+        src="assets\images\icons\search-icon.png"
+        alt="Submit"
+      />
     </div>
-
-    <!-- featured book section -->
-    <div class="featured-book">featured book</div>
-
-    <!-- bestseller book section.  -->
-    <div class="bestseller-book">bestseller book</div>
+    <div id="search-results">
+      <!--link to search result api-->
+    </div>
   </body>
 </html>
