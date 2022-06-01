@@ -75,6 +75,16 @@ p {
   padding-left: 3.25rem;
 }
 
+input {
+  z-index: 500;
+  display: inline-flex;
+  width: 7.5%;
+  position: relative;
+  bottom: 0;
+  float: right;
+  text-align: center;
+}
+
 #around {
   padding-top: -10%;
 }
