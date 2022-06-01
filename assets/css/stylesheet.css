@@ -9,27 +9,16 @@ body {
   border: 0%;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.95;
+  z-index: -500;
 }
 
-/* nav {
-  display: inline-flex;
-} */
-
-/* .bg {
-  background-image: url("assets/images/background/homepage.png");
+#logo {
+  display: inline-block;
+  justify-content: center;
   position: relative;
-  height: fit-content;
-  width: fit-content;
-  z-index: -5000;
-} */
-
-/* .background {
-  margin: 25%;
-  /* max-height: 100%;
-  max-width: 100%; */
-/* background-repeat: no-repeat;
-  background-size: cover;
-}*/
+  align-self: center;
+}
 
 nav ul {
   list-style-type: none;
@@ -66,11 +55,22 @@ nav ul li a:hover:not(.active) {
   color: white;
 }
 
-nav ul li img {
-  width: 25%;
-  align-content: center;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul li a img {
+  /*  width: 25%;
+  margin-right: 20%; */
+  justify-content: center;
+}
+
+p {
   text-align: center;
-  margin-right: 20%;
+  font-size: 3rem;
+  padding: 5rem;
 }
 
 div {
@@ -79,14 +79,40 @@ div {
   height: 100%;
 }
 
+.search {
+  display: inline-flex;
+  /* width: 20%; */
+  text-align: left;
+  justify-content: center;
+}
+
+.search input {
+  margin-left: 30rem;
+  width: 100%;
+  /* margin-right: 28rem; */
+  /* padding-top: 0.5rem;
+  padding-bottom: 0.5rem; */
+}
+
+.search input {
+  align-items: center;
+  width: 100%;
+}
+
+#search-button {
+  width: 5rem;
+  margin-left: 0;
+}
+
 .main-title {
-  display: flex;
+  display: inline-flex;
   text-align: center;
+  justify-content: center;
   border: 5px solid black;
-  color: #5e3a4d;
+  color: white;
   position: relative;
   width: 25%;
-  align-items: center;
+  /* align-items: center; */
   flex-flow: row wrap;
 }
 
@@ -94,7 +120,7 @@ div {
   display: inline-flex;
   flex-flow: row wrap;
   position: relative;
-  /* display: inline-flex; */
+  background-color: #5e3a4d;
   flex: auto;
   margin-right: 20%;
   margin-top: 10%;
@@ -104,7 +130,7 @@ div {
   display: inline-flex;
   flex-flow: row wrap;
   position: relative;
-  /* display: inline-flex; */
+  background-color: #5e3a4d;
   flex: auto;
   margin-right: 20%;
   margin-top: 10%;
