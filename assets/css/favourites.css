@@ -139,13 +139,15 @@ div {
   flex-flow: row wrap;
 }
 
-.checkout {
-  display: flex;
-  /* background-color: #5e3a4d; */
+.favourites {
+  display: inline-flex;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .book {
   position: relative;
   background-color: #5e3a4d;
+  /* padding-top: 5%; */
+  justify-content: space-between;
 }
