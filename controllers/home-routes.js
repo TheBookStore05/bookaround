@@ -16,6 +16,10 @@ router.get('/signin',(req,res) => {
     console.log('=================');
     return res.render('signin');
 });
+router.get('/signup',(req,res) => {
+    console.log('=================');
+    return res.render('signup');
+});
 
 
 module.exports = router;
