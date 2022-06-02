@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/signup.css" />
     <title>Document</title>
   </head>
   <body
     id="background"
-    style="background-image: url(./assets/images/background/homepage.png)"
+    style="background-image: url(./assets/images/background/pagebackground.jpg)"
   >
     <!-- Added a vertical nav-bar that will always stay on the page -->
     <nav class="vertical-bar">
@@ -33,56 +33,67 @@
               alt="bookmark for favourites page"
           /></a>
         </li>
-
-        <p id="slogan">
-          Come <br />
-          Take <br />
-          A Book <br />
-          Around!
-        </p>
+        <p>Come and take a Book Around!</p>
       </ul>
     </nav>
 
-    <!-- login/signup buttons -->
-    <input type="button/text" placeholder="Signup" />
+    <input type="button/text" placeholder="Sign in" />
     <input type="button/text" placeholder="Login" />
 
-    <div class="logo" id="main-logo">
-      <h1>
-        <img src="assets\images\logo\mainpagelogo.png" alt="Book Around Logo" />
-      </h1>
+    <div>
+      <h1 class="main-title">Sign Up</h1>
     </div>
 
     <!-- added a search bar & button to search for books -->
+    <!-- added a search bar & button to search for books -->
     <div class="search">
       <input
-        id="search-bar"
+        id="first-name"
         type="text"
-        placeholder="Search for your book..."
+        placeholder="first name"
         size="35"
       />
-
-      <!-- submit button -->
+    </div>
+    <div class="search">
       <input
-        id="search-button"
-        type="image"
-        src="assets\images\icons\search-icon.png"
-        alt="Submit"
+        id="last-name"
+        type="text"
+        placeholder="last name"
+        size="35"
       />
     </div>
-
-    <div class="special-section">
-      <!-- featured book section -->
-      <div class="main-title featured-book">
-        <p>Featured Book</p>
-        <img src="assets\images\icons\comingsoon.png" alt="featured book" />
-      </div>
-
-      <!-- bestseller book section.  -->
-      <div class="main-title bestseller-book">
-        <p>Bestseller Book</p>
-        <img src="assets\images\icons\comingsoon.png" alt="bestseller book" />
-      </div>
+    <div class="search">
+      <input
+        id="email"
+        type="text"
+        placeholder="Email"
+        size="35"
+      />
     </div>
+    <div class="search">
+      <input
+        id="password"
+        type="text"
+        placeholder="Password"
+        size="35"
+      />
+    </div>
+    <div class="search">
+      <input
+        id="confirm-password"
+        type="text"
+        placeholder="Confirm Password"
+        size="35"
+      />
+    </div>
+    <div>
+      <!-- submit button -->
+      <button type="button" id="submit">Submit</button>
+    </div>  
   </body>
 </html>
+
+
+
+
+ 
