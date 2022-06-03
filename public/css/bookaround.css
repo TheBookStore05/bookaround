@@ -144,7 +144,7 @@ div {
   position: relative;
   background-color: #5e3a4d;
   justify-content: space-between;
-  margin-left: 17%;
+  margin-left: 1%;
   margin-right: 2%;
   margin-top: 0.15%;
 }
@@ -153,10 +153,9 @@ div {
   position: relative;
   float: right;
   width: 80%;
-  height: auto;
 }
 
-#delete {
+.delete {
   width: 1rem;
   height: 1rem;
 }
