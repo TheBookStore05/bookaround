@@ -1,0 +1,301 @@
+/* template styling starts*/
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+  z-index: -500;
+}
+
+.logo {
+  display: absolute;
+  margin-right: 20%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-image: linear-gradient(#5e3a4d, black);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  color: aliceblue;
+}
+
+nav li {
+  align-content: center;
+  align-items: center;
+}
+
+nav ul li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  align-items: center;
+}
+
+nav ul li a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+nav ul li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul li a img {
+  justify-content: center;
+}
+
+p {
+  display: block;
+  font-size: 3.5rem;
+  padding-top: 3.75rem;
+  padding-right: 3.75rem;
+  padding-bottom: 3.75rem;
+  padding-left: 3.25rem;
+}
+
+input {
+  z-index: 500;
+  display: inline-flex;
+  width: 7.5%;
+  position: relative;
+  bottom: 0;
+  float: right;
+  text-align: center;
+}
+
+#around {
+  padding-top: -10%;
+}
+
+div {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 100%;
+}
+
+.search {
+  display: inline-flex;
+  text-align: left;
+  justify-content: center;
+}
+
+.search input {
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  margin-left: 20rem;
+}
+
+#search-button {
+  width: 5rem;
+  margin-left: 0;
+}
+
+.login {
+  float: right;
+  background-color: #5e3a4d;
+  color: white;
+  height: 2rem;
+  width: 4rem;
+}
+
+.main-title {
+  display: inline-flex;
+  text-align: center;
+  margin-left: 19.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 5px solid black;
+  background-color: #5e3a4d;
+  color: white;
+  position: relative;
+  justify-content: center;
+  width: 25%;
+  flex-flow: row wrap;
+}
+
+.favourites {
+  display: block;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.book {
+  position: relative;
+  background-color: #5e3a4d;
+  justify-content: space-between;
+  margin-left: 17%;
+  margin-right: 2%;
+  margin-top: 0.15%;
+}
+
+.unfavourite {
+  position: relative;
+  float: right;
+  width: 80%;
+  height: auto;
+}
+
+#delete {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* template styling ends*/
+
+/* index.html styling starts*/
+
+.index-search-bar {
+  display: inline-flex;
+  /* width: 20%; */
+  text-align: left;
+  justify-content: center;
+}
+
+/* .search input {
+  margin-left: 24.5rem;
+  width: 100%;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+} */
+
+.main-title {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  border: 5px solid black;
+  color: white;
+  position: relative;
+  width: 25%;
+  flex-flow: row wrap;
+}
+
+.special-book {
+  display: inline-flex;
+  flex-flow: row wrap;
+  position: relative;
+  background-color: #5e3a4d;
+  border: 5px solid black;
+  color: white;
+  flex: auto;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+/* 
+.bestseller-book {
+  display: inline-flex;
+  flex-flow: row wrap;
+  position: relative;
+  background-color: #5e3a4d;
+  flex: auto;
+  margin-right: 20%;
+  margin-top: 10%;
+} */
+
+.special-section {
+  display: inline-flex;
+  flex: auto;
+  margin-right: 34%;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+
+.bestseller-book img {
+  max-width: 80%;
+  height: auto;
+  position: relative;
+}
+
+.featured-book img {
+  max-width: 80%;
+  height: auto;
+  position: relative;
+}
+
+/* index.html styling ends*/
+
+/* search-results.html styling starts*/
+/* search-results.html styling ends*/
+
+/* book-info.html styling starts*/
+/* book-info.html styling ends*/
+
+/* favourites.html styling starts*/
+/* favourites.html styling ends*/
+
+/* signup.html styling starts*/
+/* signup.html styling ends*/
+
+/* signin.html styling starts*/
+
+/* #submit, #signup {
+    margin-left: 26rem;
+    background-color: #5e3a4d;
+    color: white;
+    height: 2rem;
+    width: 4rem;
+  }
+
+  #forgot{
+    margin-left: 23rem;
+    background-color: #5e3a4d;
+    color: white;
+    height: 2rem;
+    width: 10rem;
+  } */
+/* signin.html styling ends*/
+
+/* checkout1.html styling starts*/
+/* checkout1.html styling ends*/
+
+/* checkout2.html styling starts*/
+/* checkout2.html styling ends*/
+
+/* thankyou.html styling starts*/
+
+/* #forgot{
+    margin-left: 23rem;
+    background-color: #5e3a4d;
+    color: white;
+    height: 2rem;
+    width: 10rem;
+  }
+
+  .main-title {
+    display: inline-flex;
+    text-align: center;
+    margin-left: 17rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 5px solid black;
+    background-color: #5e3a4d;
+    color: white;
+    position: relative;
+    justify-content: center;
+    width: 25%;
+    flex-flow: row wrap;
+  }
+   */
+
+/* thankyou.html styling ends*/
