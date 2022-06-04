@@ -7,7 +7,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="../public/css/bookaround.css"
+      href="/public/css/bookaround.css"
     />
     <title>
       Book Around. A webpage built to be a comparison for book prices and a
@@ -16,7 +16,9 @@
   </head>
   <body
     id="background"
-    style="background-image: url(../public/images/background/thankyou.jpg)"
+    style="
+      background-image: url(/public/images/background/pagebackground.jpg);
+    "
   >
     <!-- Added a vertical nav-bar that will always stay on the page -->
     <nav class="vertical-bar">
@@ -24,21 +26,21 @@
         <li>
           <a href="index.html"
             ><img
-              src="../public/images/logo/pagelogo.png"
+              src="/public/images/logo/pagelogo.png"
               alt="Book Around Logo"
           /></a>
         </li>
         <li>
           <a href="checkout1.html"
             ><img
-              src="../public/images/icons/shopping-cart.png"
+              src="/public/images/icons/shopping-cart.png"
               alt="shopping cart for checkout"
           /></a>
         </li>
         <li>
           <a href="favourites.html"
             ><img
-              src="../public/images/icons/favourites.png"
+              src="/public/images/icons/favourites.png"
               alt="bookmark for favourites page"
           /></a>
         </li>
@@ -54,25 +56,27 @@
 
 
     <div>
-      <h1 class="main-title">
-        Thank you <br />
-        for your <br />
-        purchase!
-      </h1>
+      <h1 class="main-title">Sign In</h1>
     </div>
 
+    <!-- added a search bar & button to search for books -->
+    <div class="search">
+      <input id="first-name" type="username" placeholder="Username" size="35" />
+    </div>
+    <div class="search">
+      <input id="password" type="text" placeholder="Password" size="35" />
+    </div>
     <div>
       <!-- submit button -->
-      <a href="index.html">
-      <button type="button" class="continue-button">
-        Click here to keep Booking around!
-      </button></a>
+      <button type="button" class="" id="submit">Submit</button>
     </div>
-
     <div>
-      <a href="index.html">
-      <button type="button" id="submit">Log Out</button></a>
+      <!-- submit button -->
+      <button type="button" class="" id="signup">Sign Up</button>
     </div>
-    
+    <div>
+      <!-- submit button -->
+      <button type="button" id="forgot">Forgot Password</button>
+    </div>
   </body>
 </html>
