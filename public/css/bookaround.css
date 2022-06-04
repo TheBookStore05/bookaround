@@ -66,11 +66,11 @@ nav ul li a img {
 
 p {
   display: block;
-  font-size: 3.5rem;
-  padding-top: 3.75rem;
-  padding-right: 3.75rem;
-  padding-bottom: 3.75rem;
-  padding-left: 3.25rem;
+  font-size: 3rem;
+  padding-top: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
 }
 
 input {
@@ -166,18 +166,9 @@ div {
 
 .index-search-bar {
   display: inline-flex;
-  /* width: 20%; */
   text-align: left;
   justify-content: center;
 }
-
-/* .search input {
-  margin-left: 24.5rem;
-  width: 100%;
-  text-align: center;
-  width: 100%;
-  font-size: 14px;
-} */
 
 .main-title {
   display: inline-flex;
@@ -201,16 +192,7 @@ div {
   margin-right: 10%;
   margin-top: 10%;
 }
-/* 
-.bestseller-book {
-  display: inline-flex;
-  flex-flow: row wrap;
-  position: relative;
-  background-color: #5e3a4d;
-  flex: auto;
-  margin-right: 20%;
-  margin-top: 10%;
-} */
+
 
 .special-section {
   display: inline-flex;
@@ -232,29 +214,13 @@ div {
   position: relative;
 }
 
-/* index.html styling ends*/
-
-/* search-results.html styling starts*/
-/* search-results.html styling ends*/
-
-/* book-info.html styling starts*/
-/* book-info.html styling ends*/
-
-/* favourites.html styling starts*/
-/* favourites.html styling ends*/
-
-/* signup.html styling starts*/
-/* signup.html styling ends*/
-
-/* signin.html styling starts*/
-
-/* #submit, #signup {
-    margin-left: 26rem;
-    background-color: #5e3a4d;
-    color: white;
-    height: 2rem;
-    width: 4rem;
-  }
+#submit, #signup {
+  margin-left: 26rem;
+  background-color: #5e3a4d;
+  color: white;
+  height: 2rem;
+  width: 4rem;
+}
 
   #forgot{
     margin-left: 23rem;
@@ -263,38 +229,24 @@ div {
     height: 2rem;
     width: 10rem;
   } */
-/* signin.html styling ends*/
 
-/* checkout1.html styling starts*/
-/* checkout1.html styling ends*/
-
-/* checkout2.html styling starts*/
-/* checkout2.html styling ends*/
+.checkout-submit {
+  float: right;
+  background-color: #5e3a4d;
+  color: white;
+  height: 2rem;
+  width: 4rem;
+}
 
 /* thankyou.html styling starts*/
-
-/* #forgot{
-    margin-left: 23rem;
-    background-color: #5e3a4d;
-    color: white;
-    height: 2rem;
-    width: 10rem;
-  }
-
-  .main-title {
-    display: inline-flex;
-    text-align: center;
-    margin-left: 17rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    border: 5px solid black;
-    background-color: #5e3a4d;
-    color: white;
-    position: relative;
-    justify-content: center;
-    width: 25%;
-    flex-flow: row wrap;
-  }
-   */
-
+.continue-button {
+  background-color: #5e3a4d;
+  width: 30%;
+  height: 25%;
+  color: white;
+  font-size: large;
+  border: 5px solid black;
+  margin-left: 25%;
+  margin-bottom: 2%;
+}
 /* thankyou.html styling ends*/
